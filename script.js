@@ -54,12 +54,6 @@ function loseHelper(playerSelection, computerSelection) {
     return 'You Lose! ' + computerSelection + ' beats ' + playerSelection;
 }
 
-// for(let i = 1; i <= 5; i++) {
-//     computerSelection = getComputerChoice();
-//     playerSelection = prompt('Please Enter your Decision: ');
-//     console.log(playRound(playerSelection, computerSelection));
-// }
-
 btnContainer.addEventListener('click', (event) => {
     if(event.target.id == "reset") {
         window.location.reload();
